@@ -1,16 +1,16 @@
 Bravely Default II Grinding Script by ClassicAdam
 
-0. Table of Contents
-
-    (1) Introduction
-    (2) Setup
-    (3) Running the Script
-    (4) Stopping the Script
-    (5) Configuring
-    (6) More Info
-
+(0) Table of Contents
 
 1. Introduction
+2. Setup
+3. Running the Script
+4. Stopping the Script
+5. Configuring
+6. More Info
+
+
+(1) Introduction
 
 This is a script written for the game Bravely Default II for PC:
 https://en.wikipedia.org/wiki/Bravely_Default_II
@@ -21,10 +21,10 @@ https://en.wikipedia.org/wiki/AutoHotkey
 
 This script will run your party back and forth on the map until it runs into a monster for a battle.  The script will then fight in the battle repeating the previous attacks that were performed until they are defeated, leveling up your the characters in your party.
 
-If this script is run for several days, you can get your characters to level 99 toward the very beginning of the game.  Or you can use it just to level up a newly aquired job.
+If this script is run for several days, you can get your characters to level 99 toward the very beginning of the game.  Or you can use it just to level up a newly acquired job.
 
 
-2. Setup
+(2) Setup
 
 Ensure AutoHotKey is installed and running on your Windows PC.
 
@@ -36,7 +36,7 @@ Replace the AutoHotKey.ahk file in your Documents folder with the one you downlo
 AutoHotKey has an icon in the tray.  Right-click to bring up the context menu and select "Reload This Script".
 
 
-3. Running the Script
+(3) Running the Script
 
 Before you run the script, get into a battle and use the regular attack for all characters.  The script leverages the option to use the last attack, and so the script won't work will if your champions last action was to default or use magic that will run out of MP.
 
@@ -46,7 +46,7 @@ Control + Alt + 2
 
 The script comes with two options, running up/down and running left/right.  The 1 option will go up/down, and the 2 option will go left/right.
 
-4.  Stopping the Script
+(4)  Stopping the Script
 
 The following hotkey pauses the script:
 Control + Alt + P
@@ -56,7 +56,7 @@ When the script is paused, you will see the AutoHotKey icon in the tray change c
 Because this script works by entering keyboard keys, pausing the script can be disrupted by the keys that are being pressed by the script.  You may need to try pausing a couple times for it work.  The script also presses and holds keys down, so if the script is paused while a key is pressed down, you may see your party continue running in one direction.  Just press the corresponding key for that direction again on the keyboard and it will fix that.
 
 
-5. Configuring
+(5) Configuring
 
 Both the up/down and left/right scripts will have two variables you can configure:
 times_to_loop := 100
@@ -67,7 +67,7 @@ The value for the times_to_loop variable can be increased to make the script run
 The value for the distance variable will determine how for your party runs back and forth in a particular direction.
 
 
-6. More Info
+(6) More Info
 
 The script is pretty simple, so many can likely just read through it to see how it works.  But it essentially just loops some keys for running around the map and attacking.  The same script is used when running around the map and when in a battle, as they don't seem to disrupt each other.  There's no detection for the script to change when a battle starts or finishes.  The script doesn't work anywhere else, like in a town or if you get caught in dialog with an NPC.
 
