@@ -1,4 +1,4 @@
-Bravely Defayult II Grinding Script by ClassicAdam
+Bravely Default II Grinding Script by ClassicAdam
 
 0. Table of Contents
 
@@ -78,6 +78,7 @@ In the battles, the characters will either do the attack move, or they will do t
 It's possible your characters will get KO'd while the script is running, so I recommend abilities that automatically heal and defend, having a companion in the party that automatically heals, and facing easy monsters.
 
 Tested on Windows 11 PC running v1.1.30.01 of AutoHotKey.
+Tested in full screen and windowed mode.
 
 Please see the licence file.  Released under the MIT license.
 
