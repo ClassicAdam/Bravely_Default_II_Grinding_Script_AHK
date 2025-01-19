@@ -1,5 +1,6 @@
 Bravely Default II Grinding Script by ClassicAdam
 
+
 (0) Table of Contents
 
 1. Introduction
@@ -45,6 +46,7 @@ Control + Alt + 1
 Control + Alt + 2
 
 The script comes with two options, running up/down and running left/right.  The 1 option will go up/down, and the 2 option will go left/right.
+
 
 (4)  Stopping the Script
 
