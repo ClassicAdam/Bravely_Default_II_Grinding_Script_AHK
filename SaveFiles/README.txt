@@ -9,4 +9,9 @@ C:\Users\%USERNAME%\Documents\My Games\Bravely_Default_II\Steam\<numbers>\Saved\
 Grab the AutoHotKey script to grind and level up:
 https://github.com/ClassicAdam/Bravely_Default_II_Grinding_Script_AHK
 
+As a bonus, I added a save file for the game "Final Fantasy: The 4 Heroes of Light" for the Nintendo DS.  I used K'Nex and built something to keep pressing the A button to grind in battles and left it running ny itself.  Party that should be level ~20 is now level ~70.  (I would have gotten them to level 99, but the motor seemed to have started to die.)
+
+Video of the K'Nex contraption playing the game:
+https://www.youtube.com/watch?v=0gYAsoY2530
+
 Thank you and enjoy!
